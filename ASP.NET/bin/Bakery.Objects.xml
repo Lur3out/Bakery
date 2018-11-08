@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bakery.Objects</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Bakery.Cake">
+            <summary>
+            Cake.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Cake.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Cake.Lifetime">
+            <summary>
+            Lifetime.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Cake.Imagelink">
+            <summary>
+            Imagelink.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Cake.Price">
+            <summary>
+            Price.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Cake.Actual">
+            <summary>
+            Actual.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.Cake.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Cake.Views.Bakery_CakeE">
+            <summary>
+            "Bakery_CakeE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Cake.Views.Bakery_CakeL">
+            <summary>
+            "Bakery_CakeL" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Cake.Views.CakeE">
+            <summary>
+            "CakeE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Cake.Views.CakeL">
+            <summary>
+            "CakeL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.DefectedCake">
+            <summary>
+            Defected cake.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.DefectedCake.Count">
+            <summary>
+            Count.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.DefectedCake.Reason">
+            <summary>
+            Reason.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.DefectedCake.CakeToSale">
+            <summary>
+            Defected cake.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.DefectedCake.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.DefectedCake.Views.Bakery_DefectedCakeE">
+            <summary>
+            "Bakery_DefectedCakeE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.DefectedCake.Views.Bakery_DefectedCakeL">
+            <summary>
+            "Bakery_DefectedCakeL" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.DefectedCake.Views.DefectedCakeE">
+            <summary>
+            "DefectedCakeE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.DefectedCake.Views.DefectedCakeL">
+            <summary>
+            "DefectedCakeL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.RequestStatus">
+            <summary>
+            Request status.
+            </summary>
+        </member>
+        <member name="F:IIS.Bakery.RequestStatus.Created">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Bakery.RequestStatus.Paid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Bakery.RequestStatus.Decilned">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.Request">
+            <summary>
+            Request.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.Date">
+            <summary>
+            Date.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.Totalprice">
+            <summary>
+            Totalprice.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.Cost">
+            <summary>
+            Cost.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.Status">
+            <summary>
+            Status.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.Shift">
+            <summary>
+            Request.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.CakeIntoRequest">
+            <summary>
+            Request.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.Request.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.Views.Bakery_RequestE">
+            <summary>
+            "Bakery_RequestE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.Views.Bakery_RequestL">
+            <summary>
+            "Bakery_RequestL" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.Views.RequestE">
+            <summary>
+            "RequestE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Request.Views.RequestL">
+            <summary>
+            "RequestL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.MyDicttionary">
+            <summary>
+            My dicttionary.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.MyDicttionary.Actual">
+            <summary>
+            Actual.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.CakeIntoRequest">
+            <summary>
+            Cake into request.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeIntoRequest.Count">
+            <summary>
+            Count.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeIntoRequest.CakeToSale">
+            <summary>
+            Cake into request.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeIntoRequest.Request">
+            <summary>
+            мастеровая ссылка на шапку IIS.Bakery.Request.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.CakeIntoRequest.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeIntoRequest.Views.Bakery_CakeIntoRequestE">
+            <summary>
+            "Bakery_CakeIntoRequestE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeIntoRequest.Views.CakeIntoRequestE">
+            <summary>
+            "CakeIntoRequestE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.DetailArrayOfCakeIntoRequest">
+            <summary>
+            Detail array of CakeIntoRequest.
+            </summary>
+        </member>
+        <member name="M:IIS.Bakery.DetailArrayOfCakeIntoRequest.#ctor(IIS.Bakery.Request)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type CakeIntoRequest by index.
+            </summary>
+            <summary>
+            Adds object with type CakeIntoRequest.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.Staff">
+            <summary>
+            Staff.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Staff.Personalkey">
+            <summary>
+            Personalkey.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Staff.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Staff.Surname">
+            <summary>
+            Surname.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Staff.Role">
+            <summary>
+            Role.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Staff.Actual">
+            <summary>
+            Actual.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.Staff.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Staff.Views.Bakery_StaffE">
+            <summary>
+            "Bakery_StaffE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Staff.Views.Bakery_StaffL">
+            <summary>
+            "Bakery_StaffL" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Staff.Views.StaffE">
+            <summary>
+            "StaffE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Staff.Views.StaffL">
+            <summary>
+            "StaffL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.ShiftStatus">
+            <summary>
+            Shift status.
+            </summary>
+        </member>
+        <member name="F:IIS.Bakery.ShiftStatus.Started">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Bakery.ShiftStatus.Ended">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Bakery.ShiftStatus.Interrupted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.CakeToSale">
+            <summary>
+            Cake to sale.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeToSale.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeToSale.FabricationDate">
+            <summary>
+            FabricationDate.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeToSale.Count">
+            <summary>
+            Count.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeToSale.Baker">
+            <summary>
+            Cake to sale.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeToSale.Cake">
+            <summary>
+            Cake to sale.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.CakeToSale.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeToSale.Views.Bakery_CakeToSaleE">
+            <summary>
+            "Bakery_CakeToSaleE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeToSale.Views.Bakery_CakeToSaleL">
+            <summary>
+            "Bakery_CakeToSaleL" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeToSale.Views.CakeToSaleE">
+            <summary>
+            "CakeToSaleE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.CakeToSale.Views.CakeToSaleL">
+            <summary>
+            "CakeToSaleL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.Shift">
+            <summary>
+            Shift.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.Start">
+            <summary>
+            Start.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.End">
+            <summary>
+            End.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.Status">
+            <summary>
+            Status.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.Cash">
+            <summary>
+            Cash.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.InterruptReason">
+            <summary>
+            InterruptReason.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.Cashier">
+            <summary>
+            Shift.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.Shift.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.Views.Bakery_ShiftE">
+            <summary>
+            "Bakery_ShiftE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.Views.Bakery_ShiftL">
+            <summary>
+            "Bakery_ShiftL" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.Views.ShiftE">
+            <summary>
+            "ShiftE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Bakery.Shift.Views.ShiftL">
+            <summary>
+            "ShiftL" view.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bakery.BusinessServers</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Bakery.DeletedCakeBS">
+            <summary>
+            Deleted cake BS.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.ShiftBS">
+            <summary>
+            Shift BS.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.CakeBS">
+            <summary>
+            Cake BS.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.CakeToSaleBS">
+            <summary>
+            CakeToSaleBS.
+            </summary>
+        </member>
+        <member name="T:IIS.Bakery.RequestBS">
+            <summary>
+            Request BS.
+            </summary>
+        </member>
+    </members>
+</doc>
